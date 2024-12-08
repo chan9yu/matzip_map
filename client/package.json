@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"description": "🍖 Matzip Map Service With React Native",
-	"packageManager": "pnpm@9.15.0",
+	"packageManager": "yarn@1.22.22",
 	"author": "chan9yu <dev.cgyeo@gmail.com>",
 	"repository": {
 		"type": "git",
