@@ -1,10 +1,13 @@
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
 	return (
-		<SafeAreaView style={styles.container}>
-			<Text>App Version 0.0.1</Text>
-		</SafeAreaView>
+		<NavigationContainer>
+			<View style={styles.container}>
+				<Text>App Version 0.0.2</Text>
+			</View>
+		</NavigationContainer>
 	);
 }
 
